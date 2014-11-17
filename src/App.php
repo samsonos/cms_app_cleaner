@@ -140,10 +140,10 @@ class CleanerApp extends \samson\cms\App
     function __async_clean_gallery()
     {
         // Получим путь к файлам галлереи
-        $gallery_folder_path = __SAMSON_CWD__.'upload';
+        //$gallery_folder_path = __SAMSON_CWD__.'upload';
 
         // Получим файлы из галлереи
-        $files = glob($gallery_folder_path.'/*');
+        //$files = glob($gallery_folder_path.'/*');
 
         $output = '<h2>Очистка галереи</h2>';
         $status = '0';
@@ -151,7 +151,7 @@ class CleanerApp extends \samson\cms\App
         if ($db_gallery = dbQuery('gallery')->exec()) {
             foreach ($db_gallery as $db_img) {
                 // Построим полный путь к картинке
-                $img_path = __SAMSON_CWD__.$db_img->Src;
+                //$img_path = __SAMSON_CWD__.$db_img->Src;
                 if ($db_img->Active == 0 /* || !in_array($img_path, $files)*/) {
                     $output .= '<br> Изображение ' . $db_img->id . ' было удалено.';
                     $db_img->delete();

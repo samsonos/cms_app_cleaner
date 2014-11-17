@@ -1,14 +1,14 @@
 <div class="top"><h2>Что очищать:<h2></div>
 
 <div class="main_clean_menu">
-    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_draft') ?>">Черновики<a>
-    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_material') ?>">Удаленные материалы<a>
-    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_structure') ?>">Удаленные структуры<a>
-    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_field') ?>">Удаленные доп. поля<a>
-    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_materialfield') ?>">Materialfield поля<a>
-    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_structurefield') ?>">Structurefield поля<a>
-    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_gallery') ?>">Галереи<a>
+    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_draft') ?>">Черновики</a>
+    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_material') ?>">Удаленные материалы</a>
+    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_structure') ?>">Удаленные структуры</a>
+    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_field') ?>">Удаленные доп. поля</a>
+    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_materialfield') ?>">Materialfield поля</a>
+    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_structurefield') ?>">Structurefield поля</a>
+    <a class="main_clean_btn draft_mat_clean" href="<?php url_base('cleaner','clean_gallery') ?>">Галереи</a>
 </div>
 
+<div class="loader"></div>
 <div class="clean_result"></div>
-
