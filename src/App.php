@@ -17,6 +17,9 @@ class CleanerApp extends \samson\cms\App
     /** @var string	Application identifier */
     protected $id = 'cleaner';
 
+    /** @var bool Hide in menu */
+    public $hide = true;
+
     /** Generic controller */
     public function __HANDLER() {
         $this->view('www/view/index')
